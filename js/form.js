@@ -47,7 +47,9 @@ class Form{
            
               database.ref("/").set({
                   //defina o valor inicial para playerCount,gameState,players
-                 
+                playerAtEnd:0,
+                 playerCount:0,
+                 gameState:0
                 });
                 //reload() a janela
                 window.location.reload();
